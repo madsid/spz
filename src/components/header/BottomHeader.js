@@ -16,7 +16,6 @@ export default class BottomHeader extends React.Component{
 			<div id="bottomheader" className="container-fluid">
 				<div className="row"> 
 					<div className="positionright col-md-8" id="navbar">
-						<Link to="/">HI</Link>
 						<p> <i className="glyphicon glyphicon-home"></i></p>
 						<p> Today's Special </p>
 						<p> Talk 2 Chef </p>

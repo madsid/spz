@@ -11,6 +11,7 @@ export default class CoreLayout extends React.Component {
     return (
       <div>
         <HeaderContainer />
+        
         <div className='container'>
           <div className='row'>
             {this.props.children}

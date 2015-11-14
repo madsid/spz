@@ -4,8 +4,10 @@ import CoreLayout            from 'layouts/CoreLayout';
 import HomeView              from 'views/HomeView';
 
 export default (
-  <Route path='/' component={CoreLayout}>
-  	<Route path="home" component={HomeView} />
+  <Route component={CoreLayout}>
     <IndexRoute component={HomeView} />
+  	<Route path='/' component={HomeView} />
+  	<Route path='about' component={HomeView} />
+  	<Route path='home' component={HomeView} />
   </Route>
 );
