@@ -49,17 +49,43 @@ body{
 #bottomheader{
 	background: #EFEFEF;
 	color:#000;
-	font-size:1.5em;
+	font-size:1.4em;
 	font-weight: 600;
-	
+	padding-bottom: 0;
+	margin-bottom: 0;	
+	text-transform: uppercase;
 
 	#navbar > *{
 		display: inline;
-		text-transform: uppercase;
 		margin-left: 15px;
 	}
 }
 
+#mainslider{
+	min-width: 100%;
+	margin-top: -20px;
+	padding-top: 0;
+}
 
+#main-content{
+	background-color: #E7E7E7;
+}
 
+.breadcrumb{
+	font-size: 1.3em;
+	background-color: #333;
+	border-radius: 0;
+	color: #FFF;
 
+	a{
+		color: #FFF;
+	}
+
+	li:first-child{
+		margin: 0 0 0 4%;
+	}
+
+	li+li:before{
+		content: ">";
+	} 
+}

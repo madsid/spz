@@ -23,16 +23,7 @@ export class HomeView extends React.Component {
 
   render () {
     return (
-      <div className='neck'>
-        <img className="img-responsive" src="images/slide1.png" id="mainslider" />  
-        <div> 
-          <ol className="breadcrumb">
-            <li><a href="#">Home</a></li>
-            <li className="active">General</li>
-          </ol>
-        </div> 
-
-
+      <div className='container text-center'>
         <h1>Welcome to the React Redux Starter Kit</h1>
         <h2>Sample Counter: {this.props.counter}</h2>
         <button className='btn btn-default'
