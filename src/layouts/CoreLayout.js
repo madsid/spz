@@ -14,7 +14,6 @@ export default class CoreLayout extends React.Component {
         <div className='container-fluid' id="main-content">
           <div className='row'>
             {this.props.children}
-            <h1> Hello </h1> 
           </div>
         </div>
       </div>

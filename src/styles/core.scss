@@ -1,5 +1,6 @@
 @import 'base';
 @import 'vendor/normalize';
+$border-color : #AAA;
 
 body{
 	//body styles to decide later 
@@ -88,4 +89,71 @@ body{
 	li+li:before{
 		content: ">";
 	} 
+}
+
+#homeleftlayout{
+	margin:2% 0 0 10%;
+	font-size: 1em;
+
+	#map-button{
+		font-size: 1.2em;
+		padding-left: 30%;
+		padding-right: 30%; 
+		padding-top: 3%;
+		padding-bottom: 3%; 
+		background-color: #ff1111;
+		font-weight: bold;
+		outline: none;
+		border-radius: 2px;
+		border: none;
+	}
+
+	#map-button::hover, #map-button::focus{
+		outline: none;
+		border-radius: 2px;
+		border: none;
+	}
+
+	#filters{
+		margin-top: 15px;
+		background-color: #FFF;
+		margin-right: 10%;
+		font-size: 1.5em;
+		padding: 2% 3% 2% 6%;	
+		.form-group{
+			margin-bottom: 0;
+		}
+
+		>*{
+			padding-left:8%; 
+		}
+
+		#filterhead{
+			margin: 2%;
+			padding:0 5%; 
+			border-bottom: 1px solid $border-color;
+			p{
+				float: left;
+			}
+		}
+
+		#cusinetype {
+			border-bottom: 1px solid $border-color;
+		}
+	}
+
+	#needhelp{
+		margin-top: 15px;
+		background-color: #FFF;
+		margin-right: 18%;
+		font-size: 1.5em;
+		padding: 2% 3% 0 3%;	
+		.form-group{
+			margin-bottom: 0;
+		}
+	}
+}
+
+#homerightlayout{
+	font-size: 1.5em;
 }

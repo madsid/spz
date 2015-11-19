@@ -1,4 +1,7 @@
 import React                  from 'react';
+import HomeLeftLayout         from 'layouts/HomeLeftLayout';
+import HomeRightLayout         from 'layouts/HomeRightLayout';
+
 import { bindActionCreators } from 'redux';
 import { connect }            from 'react-redux';
 import counterActions         from 'actions/counter';
@@ -23,7 +26,7 @@ export class HomeView extends React.Component {
 
   render () {
     return (
-      <div className='neck'>
+      <div>
         <img className="img-responsive" src="images/slide1.png" id="mainslider" />  
         <div> 
           <ol className="breadcrumb">
@@ -32,8 +35,18 @@ export class HomeView extends React.Component {
           </ol>
         </div> 
 
+        <div className="container-fluid">
+          <div className="row"> 
+            <div className="col-md-3"> 
+              <HomeLeftLayout />
+            </div>
+            <div className="col-md-9"> 
+              <HomeRightLayout />
+            </div>
 
-        <h1>Welcome to the React Redux Starter Kit</h1>
+          </div>
+        </div>
+
         <h2>Sample Counter: {this.props.counter}</h2>
         <button className='btn btn-default'
                 onClick={this.props.actions.increment}>
