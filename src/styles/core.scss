@@ -16,6 +16,10 @@ body{
 	font-size:1.2em;
 }
 
+.together >*{
+	display: inline;
+}
+
 input[type="checkbox"] {
     -webkit-appearance: none;
 	background-color: #fafafa;
@@ -196,5 +200,22 @@ input[type="checkbox"]:checked::after{
 		>*{
 			margin:0 10px;
 		}
+	}
+
+	#homecontent{
+		.hoteltext{
+			margin:10px; 
+			
+			.together{
+				margin-right: 10%;
+			}
+		}
+
+
+
+	}
+
+	#homepagination{
+		text-align: center;
 	}
 }

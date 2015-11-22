@@ -34,8 +34,144 @@ export default class HomeLeftLayout extends React.Component {
         </div> 
 
         <div id="homecontent"> 
-          <p> Hello </p> 
+          <div className="row">
+            
+            <div className="col-md-6">
+              <img src="images/hotel.png" className="img-responsive" />
+
+              <div className="hoteltext">
+                <p> RAJADHANI KHANDANI </p>
+                <div className="together"> 
+                  <p> Stars </p>
+                  <p className="positionright"> Add </p> 
+                </div> 
+              </div>
+            </div>
+
+
+            <div className="col-md-6">
+              <img src="images/hotel.png" className="img-responsive" />
+
+              <div className="hoteltext">
+                <p> RAJADHANI KHANDANI </p>
+                <div className="together"> 
+                  <p> Stars </p>
+                  <p className="positionright"> Add </p> 
+                </div> 
+              </div>
+            </div>
+
+          </div>
+
+          <div className="row">
+            
+            <div className="col-md-6">
+              <img src="images/hotel.png" className="img-responsive" />
+
+              <div className="hoteltext">
+                <p> RAJADHANI KHANDANI </p>
+                <div className="together"> 
+                  <p> Stars </p>
+                  <p className="positionright"> Add </p> 
+                </div> 
+              </div>
+            </div>
+
+            
+            <div className="col-md-6">
+              <img src="images/hotel.png" className="img-responsive" />
+
+              <div className="hoteltext">
+                <p> RAJADHANI KHANDANI </p>
+                <div className="together"> 
+                  <p> Stars </p>
+                  <p className="positionright"> Add </p> 
+                </div> 
+              </div>
+            </div>
+
+          </div>
+
+
+          <div className="row">
+            
+            <div className="col-md-6">
+              <img src="images/hotel.png" className="img-responsive" />
+
+              <div className="hoteltext">
+                <p> RAJADHANI KHANDANI </p>
+                <div className="together"> 
+                  <p> Stars </p>
+                  <p className="positionright"> Add </p> 
+                </div> 
+              </div>
+            </div>
+
+            
+            <div className="col-md-6">
+              <img src="images/hotel.png" className="img-responsive" />
+
+              <div className="hoteltext">
+                <p> RAJADHANI KHANDANI </p>
+                <div className="together"> 
+                  <p> Stars </p>
+                  <p className="positionright"> Add </p> 
+                </div> 
+              </div>
+            </div>
+
+          </div>
+
+
+          <div className="row">
+            
+            <div className="col-md-6">
+              <img src="images/hotel.png" className="img-responsive" />
+
+              <div className="hoteltext">
+                <p> RAJADHANI KHANDANI </p>
+                <div className="together"> 
+                  <p> Stars </p>
+                  <p className="positionright"> Add </p> 
+                </div> 
+              </div>
+            </div>
+
+            
+            <div className="col-md-6">
+              <img src="images/hotel.png" className="img-responsive" />
+
+              <div className="hoteltext">
+                <p> RAJADHANI KHANDANI </p>
+                <div className="together"> 
+                  <p> Stars </p>
+                  <p className="positionright"> Add </p> 
+                </div> 
+              </div>
+            </div>
+
+          </div>
         </div>
+
+        <nav id="homepagination">
+            <ul className="pagination">
+              <li>
+                <a href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li>
+                <a href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
       </div>
     );
   }
