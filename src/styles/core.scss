@@ -2,6 +2,10 @@
 @import 'vendor/normalize';
 $border-color : #AAA;
 
+html{
+	font-size: 12px;
+}
+
 body{
 	//body styles to decide later 
 	font-size:100%;
@@ -13,11 +17,15 @@ body{
 }
 
 .fa{
-	font-size:1.2em;
+	font-size:1em;
 }
 
 .together >*{
 	display: inline;
+}
+
+.grey{
+	color: #AAA;
 }
 
 input[type="checkbox"] {
@@ -38,7 +46,7 @@ input[type="checkbox"]:checked{
 
 input[type="checkbox"]:checked::after{
 	content: '\2714';
-	font-size: 1.2em;
+	font-size: 1em;
     position: absolute;
     top: -2px;
     left: 3px;
@@ -55,7 +63,7 @@ input[type="checkbox"]:checked::after{
 	background: #333;
 	color:#FFF;
 	padding:6px 2% 5px 2%;
-	font-size: 1.2em;
+	font-size: 1em;
 
 	#phones{
 		p{
@@ -84,7 +92,7 @@ input[type="checkbox"]:checked::after{
 #bottomheader{
 	background: #EFEFEF;
 	color:#000;
-	font-size:1.4em;
+	font-size:1.2em;
 	font-weight: 600;
 	padding-bottom: 0;
 	margin-bottom: 0;	
@@ -96,6 +104,74 @@ input[type="checkbox"]:checked::after{
 	}
 }
 
+
+#homeview {
+	font-size: 1.2em;
+	background-color: #FFF;
+
+	.wrapper{
+		background-color: #88a;
+		padding: 2% 0;
+	}
+
+	.nav-tabs{
+		text-align: center;
+
+		.active{
+			
+			>a{
+				background-color: #ff0000;
+				border-bottom: 1px solid #FFF;
+			}	
+		}
+
+		li{
+			border-radius:5px 5px 0px 0px;
+			outline: none;
+			border: none;
+				
+			a{
+				background-color: rgba(255,255,255,0.3);
+				outline: none;
+				border: none;
+				color: #FFF;
+				font-weight: bold;
+
+			}
+		}
+	}
+
+	#homemenu{
+		margin:0 25%;
+
+		.tab-content{
+			background-color: #FFF;
+			padding: 2% 2% 5% 2%;
+    		margin: 0 -2.3% 0 -2.3%;
+    		border-radius: 0 0 6px 6px;
+
+    		.grey{
+    			font-weight: bold;
+    			font-size: 1.2em;
+    			margin-bottom: 4%;
+    		}
+
+    		label{
+    			color: #555;
+    			font-size: 0.9em;
+    		}
+
+    		.specialsubmit{
+    			margin-left: 4%;
+
+    			button{
+    				margin-top: 2%;
+    			}
+    		}
+		}
+	}
+}
+
 #mainslider{
 	min-width: 100%;
 	margin-top: -20px;
@@ -103,6 +179,7 @@ input[type="checkbox"]:checked::after{
 }
 
 #main-content{
+	margin-top: -20px;
 	background-color: #E7E7E7;
 }
 
@@ -125,7 +202,7 @@ input[type="checkbox"]:checked::after{
 	} 
 }
 
-#homeleftlayout{
+#searchleftlayout{
 	margin:2% 0 0 10%;
 	font-size: 1em;
 
@@ -188,7 +265,7 @@ input[type="checkbox"]:checked::after{
 	}
 }
 
-#homerightlayout{
+#searchrightlayout{
 	font-size: 1.5em;
 	margin-left: -10px;
 	margin-right: 5%;
@@ -202,7 +279,7 @@ input[type="checkbox"]:checked::after{
 		}
 	}
 
-	#homecontent{
+	#searchcontent{
 		.hoteltext{
 			margin:10px; 
 			
@@ -215,7 +292,51 @@ input[type="checkbox"]:checked::after{
 
 	}
 
-	#homepagination{
+	#searchpagination{
 		text-align: center;
+	}
+}
+
+#footer{
+	background-color: #333;
+	color: #FFF;
+	min-height: 200px;
+	padding-top: 2%;
+	padding-bottom: 10%;
+	font-weight: bold;
+
+	>*{
+		text-align: left;
+		color: #FFF;
+	}
+
+	a{
+		display: inherit;
+		color: #AAA;
+		text-decoration: none;
+	}
+
+	a:hover{
+		color: #FFF;
+	}
+
+	.form-control{
+		margin: 10px 0;
+	}
+
+	#leftfooter, #midfooter, #rightfooter{
+		border-bottom: 1px solid #DEDEDE;
+	}
+
+	#leftfooter{
+		margin-right: 20px;
+		padding-bottom: 30px;
+	}
+	#midfooter{
+		margin-right: 20px;
+		padding-bottom: 50px;
+	}
+	#rightfooter{
+		padding-bottom: 52px;
 	}
 }

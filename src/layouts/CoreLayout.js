@@ -1,5 +1,7 @@
 import React from 'react';
 import HeaderContainer from 'containers/HeaderContainer';
+import Footer from 'components/footer/Footer';
+
 import 'styles/core.scss';
 
 export default class CoreLayout extends React.Component {
@@ -16,6 +18,7 @@ export default class CoreLayout extends React.Component {
             {this.props.children}
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

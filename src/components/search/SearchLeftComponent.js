@@ -1,14 +1,14 @@
 import React from 'react';
 import {Link} from 'react-router';
 
-export default class HomeLeftLayout extends React.Component {
+export default class SearchLeftComponent extends React.Component {
   static propTypes = {
     children : React.PropTypes.element
   }
 
   render () {
     return (
-      <div id="homeleftlayout">
+      <div id="searchleftlayout">
         <button id="map-button" type="button" className="btn btn-danger">VIEW ON MAP</button>
 
         <div id="filters">

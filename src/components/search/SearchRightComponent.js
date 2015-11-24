@@ -1,30 +1,35 @@
 import React from 'react';
 import {Link} from 'react-router';
 
-export default class HomeLeftLayout extends React.Component {
+export default class SearchRightComponent extends React.Component {
   static propTypes = {
     children : React.PropTypes.element
   }
 
   render () {
     return (
-      <div id="homerightlayout">
+      <div id="searchrightlayout">
         <div id="sorters" className="row"> 
-          <select className="col-md-2">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
+          
+          <div className="form-group col-md-2">
+            <select className="form-control">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
 
-          <select className="col-md-2">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
+         <div className="form-group col-md-2">
+            <select className="form-control">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
 
           <div className="positionright">
             <span> Test </span>
@@ -33,7 +38,7 @@ export default class HomeLeftLayout extends React.Component {
 
         </div> 
 
-        <div id="homecontent"> 
+        <div id="searchcontent"> 
           <div className="row">
             
             <div className="col-md-6">
@@ -153,7 +158,7 @@ export default class HomeLeftLayout extends React.Component {
           </div>
         </div>
 
-        <nav id="homepagination">
+        <nav id="searchpagination">
             <ul className="pagination">
               <li>
                 <a href="#" aria-label="Previous">
