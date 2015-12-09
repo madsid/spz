@@ -28,14 +28,13 @@ export default class BottomHeader extends React.Component{
 
 				    <div className="collapse navbar-collapse" id="navbar-collapse-1">
 				      <ul className="nav navbar-nav navbar-right">
-				        <li><Link to="/"><i className="glyphicon glyphicon-home"></i></Link></li>
-				        <li><Link to="/todayspecial">Today&#39;s Special</Link></li>
-				        <li><Link to="/">Talk 2 Chef</Link></li>
-				        <li><Link to="/">Need a cake</Link></li>
-				        <li><Link to="/">Restaurents</Link></li>
-				        <li><Link to="/">Street Foodz</Link></li>
-				        <li><Link to="/">Offers</Link></li>
-				        <li><Link to="/">Blog</Link></li>
+				        <li><Link to="/"><i className="glyphicon glyphicon-home"></i> Home</Link></li>
+				        <li><Link to="/">About Us</Link></li>
+				        <li><Link to="/">SFZ Team</Link></li>
+				        <li><Link to="/">Gallery</Link></li>
+				        <li><Link to="/">Media</Link></li>
+				        <li><Link to="/">Careers</Link></li>
+				        <li><Link to="/">Contact Us</Link></li>
 				      </ul>
 				    </div>
 				  </div>

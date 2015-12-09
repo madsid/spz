@@ -28,12 +28,33 @@ body{
 	color: #AAA;
 }
 
+.no-border{
+	border: none !important;
+}
+
+.social-icons {
+	font-size: 2em;
+	margin-top: 3%;
+
+	>i{
+		border: 1px solid #fff;
+		border-radius: 50%;
+		width: 40px;
+		height: 40px; 
+		position: relative;
+		top:5px;
+		margin-left:5%;
+		padding-left: 8px;
+		padding-top:6px;
+	  }
+}
+
 input[type="checkbox"] {
     -webkit-appearance: none;
 	background-color: #fafafa;
 	border: 1px solid #cacece;
 	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
-	padding: 10px;
+	padding: 8px;
 	margin-top: 1px;
 	display: inline-block;
 	position: relative;
@@ -42,15 +63,16 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:checked{
     outline: none; 
+    background-color: #666;
+    color:#FFF;
 }
 
 input[type="checkbox"]:checked::after{
 	content: '\2714';
-	font-size: 1em;
     position: absolute;
-    top: -2px;
-    left: 3px;
-    color: #05BCBF;
+    font-size: 0.75em;
+    top: 0px;
+    left: 3.5px;
 }
 
 
@@ -101,6 +123,18 @@ input[type="checkbox"]:checked::after{
 	#navbar > *{
 		display: inline;
 		margin-left: 15px;
+	}
+
+	a{
+		margin-top: 10px;
+		margin-bottom: -10px;
+		padding-top: 5px; 
+		padding-bottom: 5px; 
+	}
+	a:hover{
+		/* border: 1px solid #666;
+		border-radius: 5px;
+		color: red; */
 	}
 }
 
@@ -204,10 +238,10 @@ input[type="checkbox"]:checked::after{
 
 #searchleftlayout{
 	margin:2% 0 0 10%;
-	font-size: 1em;
+	font-size: 1.2em;
 
 	#map-button{
-		font-size: 1.2em;
+		font-size: 0.9em;
 		padding-left: 30%;
 		padding-right: 30%; 
 		padding-top: 3%;
@@ -229,7 +263,7 @@ input[type="checkbox"]:checked::after{
 		margin-top: 15px;
 		background-color: #FFF;
 		margin-right: 10%;
-		font-size: 1.5em;
+		font-size: 1em;
 		padding: 2% 3% 2% 6%;	
 		.form-group{
 			margin-bottom: 0;
@@ -266,7 +300,7 @@ input[type="checkbox"]:checked::after{
 }
 
 #searchrightlayout{
-	font-size: 1.5em;
+	font-size: 1.2em;
 	margin-left: -10px;
 	margin-right: 5%;
 
@@ -280,6 +314,15 @@ input[type="checkbox"]:checked::after{
 	}
 
 	#searchcontent{
+		.row{
+			border-bottom: 1px solid #AAA;
+			padding-bottom:  3px;
+			padding-top: 3px;
+			margin-top: 2%;
+		}
+		.row:last-child{
+			border: none;
+		}
 		.hoteltext{
 			margin:10px; 
 			
@@ -290,10 +333,6 @@ input[type="checkbox"]:checked::after{
 
 
 
-	}
-
-	#searchpagination{
-		text-align: center;
 	}
 }
 
@@ -338,5 +377,30 @@ input[type="checkbox"]:checked::after{
 	}
 	#rightfooter{
 		padding-bottom: 52px;
+	}
+
+	.mid-bottom{
+		margin-top:4%;
+		text-align: center;
+
+		*{
+			display: inline-block;
+		}
+		a{
+			display: inline-block;
+			margin:0 2px;
+		}
+
+		a::after{
+			content: "|";
+		}
+
+		a:last-child::after{
+			content: "";
+		}
+	}
+
+	.footer-hiring{
+		margin-top:3%;
 	}
 }

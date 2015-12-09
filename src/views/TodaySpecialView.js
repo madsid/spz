@@ -1,10 +1,13 @@
 import React                  from 'react';
-import SearchLeftComponent      from 'components/search/SearchLeftComponent';
-import SearchRightComponent     from 'components/search/SearchRightComponent';
+import TodaySpecialLeftComponent      from 'components/todayspecial/TodaySpecialLeftComponent';
+import TodaySpecialRightComponent     from 'components/todayspecial/TodaySpecialRightComponent';
 
 import { bindActionCreators } from 'redux';
 import { connect }            from 'react-redux';
 import counterActions         from 'actions/counter';
+
+import {Link} from 'react-router';
+
 
 // We define mapStateToProps and mapDispatchToProps where we'd normally use
 // the @connect decorator so the data requirements are clear upfront, but then
@@ -18,7 +21,7 @@ const mapStateToProps = (state) => ({
 const mapDispatchToProps = (dispatch) => ({
   actions : bindActionCreators(counterActions, dispatch)
 });
-export class SearchView extends React.Component {
+export class TodaySpecialView extends React.Component {
   static propTypes = {
     actions  : React.PropTypes.object,
     counter  : React.PropTypes.number
@@ -30,7 +33,7 @@ export class SearchView extends React.Component {
         <img className="img-responsive" src="images/slide1.png" id="mainslider" />  
         <div> 
           <ol className="breadcrumb">
-            <li><a href="#">Home</a></li>
+            <li><Link to="/">Home</Link></li>
             <li className="active">General</li>
           </ol>
         </div> 
@@ -38,10 +41,10 @@ export class SearchView extends React.Component {
         <div className="container-fluid">
           <div className="row"> 
             <div className="col-md-3"> 
-              <SearchLeftComponent />
+              <TodaySpecialLeftComponent />
             </div>
             <div className="col-md-9"> 
-              <SearchRightComponent />
+              <TodaySpecialRightComponent />
             </div>
 
           </div>
@@ -52,4 +55,4 @@ export class SearchView extends React.Component {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(SearchView);
+export default connect(mapStateToProps, mapDispatchToProps)(TodaySpecialView);
