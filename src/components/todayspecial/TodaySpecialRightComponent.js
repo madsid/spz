@@ -31,9 +31,8 @@ export default class TodaySpecialRightComponent extends React.Component {
             </select>
           </div>
 
-          <div className="positionright">
-            <span> Test </span>
-            <span> Icon Here </span>
+          <div className="positionright" id="viewers">
+            <i className="fa fa-bars"></i>
           </div>
 
         </div> 
@@ -47,8 +46,14 @@ export default class TodaySpecialRightComponent extends React.Component {
               <div className="hoteltext">
                 <p> RAJADHANI KHANDANI </p>
                 <div className="together"> 
-                  <p> Stars </p>
-                  <p className="positionright"> Add </p> 
+                  <div> 
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star-o"></i>
+                    </div>
+                  <div className="positionright"> <i className="fa fa-plus-circle"></i> </div> 
                 </div> 
               </div>
             </div>
@@ -60,8 +65,14 @@ export default class TodaySpecialRightComponent extends React.Component {
               <div className="hoteltext">
                 <p> RAJADHANI KHANDANI </p>
                 <div className="together"> 
-                  <p> Stars </p>
-                  <p className="positionright"> Add </p> 
+                  <div> 
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star-o"></i>
+                    </div>
+                  <div className="positionright"> <i className="fa fa-plus-circle"></i> </div> 
                 </div> 
               </div>
             </div>
@@ -72,8 +83,14 @@ export default class TodaySpecialRightComponent extends React.Component {
               <div className="hoteltext">
                 <p> RAJADHANI KHANDANI </p>
                 <div className="together"> 
-                  <p> Stars </p>
-                  <p className="positionright"> Add </p> 
+                  <div> 
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star-o"></i>
+                    </div>
+                  <div className="positionright"> <i className="fa fa-plus-circle"></i> </div> 
                 </div> 
               </div>
             </div>
@@ -87,8 +104,14 @@ export default class TodaySpecialRightComponent extends React.Component {
               <div className="hoteltext">
                 <p> RAJADHANI KHANDANI </p>
                 <div className="together"> 
-                  <p> Stars </p>
-                  <p className="positionright"> Add </p> 
+                  <div> 
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star-o"></i>
+                    </div>
+                  <div className="positionright"> <i className="fa fa-plus-circle"></i> </div> 
                 </div> 
               </div>
             </div>
@@ -100,8 +123,14 @@ export default class TodaySpecialRightComponent extends React.Component {
               <div className="hoteltext">
                 <p> RAJADHANI KHANDANI </p>
                 <div className="together"> 
-                  <p> Stars </p>
-                  <p className="positionright"> Add </p> 
+                  <div> 
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star-o"></i>
+                    </div>
+                  <div className="positionright"> <i className="fa fa-plus-circle"></i> </div> 
                 </div> 
               </div>
             </div>
@@ -112,8 +141,14 @@ export default class TodaySpecialRightComponent extends React.Component {
               <div className="hoteltext">
                 <p> RAJADHANI KHANDANI </p>
                 <div className="together"> 
-                  <p> Stars </p>
-                  <p className="positionright"> Add </p> 
+                  <div> 
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star-o"></i>
+                    </div>
+                  <div className="positionright"> <i className="fa fa-plus-circle"></i> </div> 
                 </div> 
               </div>
             </div>
@@ -128,8 +163,14 @@ export default class TodaySpecialRightComponent extends React.Component {
               <div className="hoteltext">
                 <p> RAJADHANI KHANDANI </p>
                 <div className="together"> 
-                  <p> Stars </p>
-                  <p className="positionright"> Add </p> 
+                  <div> 
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star-o"></i>
+                    </div>
+                  <div className="positionright"> <i className="fa fa-plus-circle"></i> </div> 
                 </div> 
               </div>
             </div>
@@ -141,8 +182,14 @@ export default class TodaySpecialRightComponent extends React.Component {
               <div className="hoteltext">
                 <p> RAJADHANI KHANDANI </p>
                 <div className="together"> 
-                  <p> Stars </p>
-                  <p className="positionright"> Add </p> 
+                  <div> 
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star-o"></i>
+                    </div>
+                  <div className="positionright"> <i className="fa fa-plus-circle"></i> </div> 
                 </div> 
               </div>
             </div>
@@ -153,8 +200,14 @@ export default class TodaySpecialRightComponent extends React.Component {
               <div className="hoteltext">
                 <p> RAJADHANI KHANDANI </p>
                 <div className="together"> 
-                  <p> Stars </p>
-                  <p className="positionright"> Add </p> 
+                  <div> 
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star-o"></i>
+                    </div>
+                  <div className="positionright"> <i className="fa fa-plus-circle"></i> </div> 
                 </div> 
               </div>
             </div>
@@ -170,8 +223,14 @@ export default class TodaySpecialRightComponent extends React.Component {
               <div className="hoteltext">
                 <p> RAJADHANI KHANDANI </p>
                 <div className="together"> 
-                  <p> Stars </p>
-                  <p className="positionright"> Add </p> 
+                  <div> 
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star-o"></i>
+                    </div>
+                  <div className="positionright"> <i className="fa fa-plus-circle"></i> </div> 
                 </div> 
               </div>
             </div>
@@ -183,8 +242,14 @@ export default class TodaySpecialRightComponent extends React.Component {
               <div className="hoteltext">
                 <p> RAJADHANI KHANDANI </p>
                 <div className="together"> 
-                  <p> Stars </p>
-                  <p className="positionright"> Add </p> 
+                  <div> 
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star-o"></i>
+                    </div>
+                  <div className="positionright"> <i className="fa fa-plus-circle"></i> </div> 
                 </div> 
               </div>
             </div>
@@ -195,8 +260,14 @@ export default class TodaySpecialRightComponent extends React.Component {
               <div className="hoteltext">
                 <p> RAJADHANI KHANDANI </p>
                 <div className="together"> 
-                  <p> Stars </p>
-                  <p className="positionright"> Add </p> 
+                  <div> 
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star"></i>
+                      <i className="fa fa-star-o"></i>
+                    </div>
+                  <div className="positionright"> <i className="fa fa-plus-circle"></i> </div> 
                 </div> 
               </div>
             </div>

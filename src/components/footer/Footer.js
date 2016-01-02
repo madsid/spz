@@ -14,6 +14,9 @@ export default class Footer extends React.Component{
 	render() {
 		return (
 			<div id="footer" className="container-fluid">
+				<div className="row topfooter">
+					<img src="images/topfooter.png" className="img-responsive" />
+				</div>
 				<div className="row">
 					<div id="leftfooter" className="col-md-2 col-md-offset-1">
 						<h4> Newsletter </h4>

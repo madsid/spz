@@ -1,6 +1,5 @@
 import React                  from 'react';
-import HomeLeftComponent      from 'components/home/HomeLeftComponent';
-import HomeRightComponent     from 'components/home/HomeRightComponent';
+import HomeComponent      from 'components/home/HomeComponent';
 
 import { bindActionCreators } from 'redux';
 import { connect }            from 'react-redux';
@@ -35,14 +34,14 @@ export class HomeView extends React.Component {
                 <li role="presentation"><a  data-toggle="tab" href="#needacake">Need a cake</a></li>
                 <li role="presentation"><a  data-toggle="tab" href="#restaurents">Restaurents</a></li>
                 <li role="presentation"><a  data-toggle="tab" href="#offers">Offers</a></li>
-                <li role="presentation"><a  data-toggle="tab" href="#blog">blog</a></li>
+                <li role="presentation"><a  data-toggle="tab" href="#blog">Blog</a></li>
               </ul>
              </div> 
 
              <div className="tab-content">
               
               <div id="todayspecial" className="tab-pane fade in active">
-                <h3 className="grey">Today&#39;s Special</h3>
+                
                 
                 <form action="/todayspecial">
                   
@@ -74,14 +73,13 @@ export class HomeView extends React.Component {
                   </div>
                   
                   <div className="specialsubmit">
-                    <button type="submit" className="btn btn-success"><i className="glyphicon glyphicon-search"></i>  Search Now</button>
+                    <button type="submit" className="btn btn-success"><i className="glyphicon glyphicon-search"></i>  Search </button>
                   </div>
                 </form>
               </div>
 
 
               <div id="needacake" className="tab-pane fade">
-                <h3 className="grey">Restaurents</h3>
                 
                 <form action="/needacake">
                   
@@ -113,12 +111,11 @@ export class HomeView extends React.Component {
                   </div>
                   
                   <div className="specialsubmit">
-                    <button type="submit" className="btn btn-success"><i className="glyphicon glyphicon-search"></i> Search Now</button>
+                    <button type="submit" className="btn btn-success"><i className="glyphicon glyphicon-search"></i> Search</button>
                   </div>
                 </form>
               </div>
               <div id="restaurents" className="tab-pane fade">
-                <h3 className="grey">Talk to chef</h3>
                 
                 <form action="/restaurents">
                   
@@ -150,7 +147,7 @@ export class HomeView extends React.Component {
                   </div>
                   
                   <div className="specialsubmit">
-                    <button type="submit" className="btn btn-success"><i className="glyphicon glyphicon-search"></i> Search Now</button>
+                    <button type="submit" className="btn btn-success"><i className="glyphicon glyphicon-search"></i> Search </button>
                   </div>
                 </form>
               </div>
@@ -160,6 +157,14 @@ export class HomeView extends React.Component {
               </div>
             </div>
 
+          </div>
+
+          <HomeComponent />
+
+          <div className="col-md-12" id="appstore">
+            <img className="img-responsive" src="images/ios.png" />
+            <img className="img-responsive" src="images/android.png" />
+            <img className="img-responsive" src="images/windows.png" />
           </div>
         </div>
       </div>
